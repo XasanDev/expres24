@@ -1,8 +1,9 @@
-
 import 'package:flutter/material.dart';
 import 'package:neww/screen/home_page.dart';
 
 void main() {
+  print("fff");
+  print("kjkjk");
   runApp(const MyApp());
 }
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Vujahday',
       ),
-      home:   Glava(),
+      home: Scaffold(),
     );
   }
 }

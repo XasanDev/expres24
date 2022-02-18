@@ -59,8 +59,8 @@ class _InfoKorsatState extends State<InfoKorsat> {
                           decoration: BoxDecoration(
                               color: Colors.blue,
                               image: DecorationImage(
-                                  image:
-                                      NetworkImage(widget.infoKorsate!["image"]),
+                                  image: NetworkImage(
+                                      widget.infoKorsate!["image"]),
                                   fit: BoxFit.cover),
                               borderRadius: BorderRadius.circular(15)),
                           height: 175,

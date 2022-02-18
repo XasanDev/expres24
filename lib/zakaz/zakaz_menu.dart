@@ -1,8 +1,5 @@
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../data_base/data_base.dart';
+import 'package:neww/data_base/data_base.dart';
 
 class MenuApp extends StatefulWidget {
   Map? comne;
@@ -144,8 +141,6 @@ class _MenuAppState extends State<MenuApp> {
               ],
             ),
           ),
-
-
           SliverGrid(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2, mainAxisExtent: 300),
@@ -197,7 +192,8 @@ class _MenuAppState extends State<MenuApp> {
                               padding: const EdgeInsets.only(top: 28.0),
                               child: Row(
                                 children: [
-                                  Text("${yaponaMama[index]['narx'].toString()}"),
+                                  Text(
+                                      "${yaponaMama[index]['narx'].toString()}"),
                                 ],
                               ),
                             )
